@@ -1,0 +1,468 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+/* UNIVERSAL */
+section{
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+
+h1{
+  font-size: 35px;
+  color: #30677c;
+  margin-bottom: 80px;
+}
+
+.buttons {
+  padding: 15px 30px;
+  border-radius: 45px;
+  background-color: #ebcd93;
+  color: white;
+  margin-top: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.center-button{
+  text-align: center;
+}
+
+.rectangle {
+  width: 50px;
+  height: 5px;
+  background-color:#51a1bb;
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 8px;
+}
+
+/* END UNIVERSAL */
+
+/* NAVIGATION */
+#octo-logo {
+  width: 190px;
+}
+
+.nav-item {
+  margin-right: 30px;
+  font-size: 18px;
+}
+/* END NAVIGATION */
+
+/* HERO */
+.hero {
+  background-image: url("img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 200px;
+  position: relative;
+  background-position: 50% 30%;
+  padding-top: 0px;
+}
+
+.hero-message {
+  padding-top: 180px;
+}
+
+.hero-message h1 {
+  color: #194859;
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.hero-message p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.hero-message span {
+  color: rgb(49, 110, 106);
+}
+
+.custom-shape-divider-bottom-1600301955 {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1600301955 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-bottom-1600301955 .shape-fill {
+  fill: #FFFFFF;
+}
+
+/* END HERO */
+/* SERVICES */
+.services img{
+  max-width: 100%;
+}
+
+.service-row{
+  margin-top: 80px;
+}
+
+.service-text{
+  margin-top: 20px;
+  text-align: center;
+}
+.service-text h4{
+  text-align: center;
+  color:  #2f86a2;
+}
+.boxoff{
+  margin-top: 60px;
+}
+
+.center-button{
+  text-align: center;
+}
+
+/* END SERVICES */
+
+/* ABOUT */
+.about{
+  background-color: #f5fbff;
+  position: relative;
+}
+
+.about img{
+  max-width: 100%;
+}
+
+.about h4{
+  margin-top: 10px;
+  color: rgb(72, 129, 144);
+}
+
+.about h6{
+  color: rgb(94, 94, 94);
+}
+
+.about-text {
+  margin-top: 50px;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.office-photo{
+  text-align: center;
+}
+
+.custom-shape-divider-top-1600644941 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1600644941 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 61px;
+}
+
+.custom-shape-divider-top-1600644941 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.insurancerow{
+  margin-top: 50px;
+}
+
+/* END ABOUT */
+/* OFFICE HOURS*/
+.office-hours{
+  background-color: #6ea4b5;
+  text-align: center;
+  color:white;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.office-info h1{
+  margin-top: 50px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.office-info, .photo{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.hours{
+  margin-bottom: 50px;
+}
+
+.contact{
+  font-size: 18px;
+}
+
+.office-photo{
+  background-image: url("img/officephoto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#officepic{
+  display: none;
+}
+/* END OFFICE HOURS */
+/* REVIEWS */
+.review-text{
+  font-size: 18px;
+}
+
+.review-user{
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: black;
+}
+
+.review-pfp{
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.review {
+  min-width: 350px !important;
+  padding: 40px 30px !important;
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
+  line-height: 2.3rem;
+  color: rgb(128, 126, 126);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.fa-star {
+  color:#e3c68d;
+}
+/* END REVIEWS */
+/* APPOINTMENT */
+.appointment{
+  background-image: url("img/appoint-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.makeapp h1, .makeapp p{
+  color: white;
+}
+
+.makeapp h1{
+  margin-bottom: 40px;
+  margin-top: 30px;
+  font-size: 45px;
+}
+
+.fa-phone-alt{
+  color: #e3c68d;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.fa-envelope{
+  color: #e3c68d;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.showlocation{
+  text-align: center;
+}
+
+
+.appointment input{
+  background-color: rgb(228, 249, 252);
+  border: none;
+  padding: 15px 30px;
+  border-radius: 23px;
+  color:rgb(42, 43, 61);
+  margin-top: 10px;
+  max-width: 100%;
+}
+
+
+.input-boxes{
+  margin-top: 15px;
+}
+
+#message{
+width: 100%;
+height: 120px;
+background-color: rgb(228, 249, 252);
+border: none;
+padding: 15px 30px;
+border-radius: 23px;
+color:rgb(42, 43, 61);
+margin-top: 10px;
+}
+/* END APPOINTMENT */
+/* gallery */
+.smile-gallery{
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.galleryh1{
+  font-size: 35px;
+  color: #4c98b0;
+  margin-bottom: 50px;
+}
+
+.fa-arrow-alt-circle-right:before{
+  color: #26a39a
+}
+
+.smile-gallery img {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    max-width: 400px;
+    width:80%;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.gallery-arrow{
+    z-index: 999;
+    margin-left: 50%;
+    top: 50%;
+    margin-top: -22px;
+    left: -22px;
+    font-size: 22px;
+    color: rgb(227, 158, 5);
+}
+.reviews .carousel-item{
+    min-height: 450px;
+}
+
+.carousel-inner{padding:30px 0;}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%236a6a6a' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    color: black;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%236a6a6a' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    color: black;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
+
+.smilebutton{
+  text-align: center;
+}
+
+/* END GALLERY */
+/* FOOTER */
+footer{
+  background-color: #3E96B1;
+  padding-top: 70px;
+  padding-bottom: 60px;
+  text-align: center;
+  color: white;
+}
+
+
+.footer-links li{
+    display: inline;
+    text-align: center;
+    list-style: none;
+    padding:10px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+/* MEDIA QUERIES */
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  .hero-message h1 {
+    font-size: 45px;
+  }
+  .hero-message p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  #officepic{
+    display:block;
+  }
+  .photo{
+    background-image: none;
+  }
+  .makeapp{
+    text-align: center;
+  }
+  .about-item{
+    text-align: center;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .hero {
+    background-image: url("img/phonebg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 80%;
+    padding-bottom: 550px;
+  }
+
+  .hero-message {
+    text-align: center;
+    padding-top: 60px;
+  }
+
+  .hero-message p {
+    display: none;
+  }
+
+  .custom-shape-divider-bottom-1600301955 svg {
+    display: none;
+  }
+
+  .inputdiv{
+    text-align: center;
+  }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+
+}
